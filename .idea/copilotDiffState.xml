@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/components/sub/skill-text.tsx">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/components/sub/skill-text.tsx" />
+              <option name="originalContent" value="&quot;use client&quot;;&#10;&#10;import { SparklesIcon } from &quot;@heroicons/react/24/solid&quot;;&#10;import { motion } from &quot;framer-motion&quot;;&#10;&#10;import {&#10;  slideInFromLeft,&#10;  slideInFromRight,&#10;  slideInFromTop,&#10;} from &quot;@/lib/motion&quot;;&#10;&#10;export const SkillText = () =&gt; {&#10;  return (&#10;    &lt;div className=&quot;w-full h-auto flex flex-col items-center justify-center&quot;&gt;&#10;      &lt;motion.div&#10;        variants={slideInFromTop}&#10;        className=&quot;Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]&quot;&#10;      &gt;&#10;        &lt;SparklesIcon className=&quot;text-[#b49bff] mr-[10px] h-5 w-5&quot; /&gt;&#10;        &lt;h1 className=&quot;Welcome-text text-[13px]&quot;&gt;&#10;          Think better with modern tools&#10;        &lt;/h1&gt;&#10;      &lt;/motion.div&gt;&#10;&#10;      &lt;motion.div&#10;        variants={slideInFromLeft(0.5)}&#10;        className=&quot;text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]&quot;&#10;      &gt;&#10;        Making apps with modern technologies.&#10;      &lt;/motion.div&gt;&#10;&#10;      &lt;motion.div&#10;        variants={slideInFromRight(0.5)}&#10;        className=&quot;cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center&quot;&#10;      &gt;&#10;        Never miss a task, deadline or idea.&#10;      &lt;/motion.div&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;" />
+              <option name="updatedContent" value="&quot;use client&quot;;&#10;&#10;import { SparklesIcon } from &quot;@heroicons/react/24/solid&quot;;&#10;import { motion } from &quot;framer-motion&quot;;&#10;&#10;import {&#10;  slideInFromLeft,&#10;  slideInFromRight,&#10;  slideInFromTop,&#10;} from &quot;@/lib/motion&quot;;&#10;&#10;export const SkillText = () =&gt; {&#10;  return (&#10;    &lt;div className=&quot;w-full h-auto flex flex-col items-center justify-center&quot;&gt;&#10;      &lt;motion.div&#10;        variants={slideInFromTop}&#10;        className=&quot;Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]&quot;&#10;      &gt;&#10;        &lt;SparklesIcon className=&quot;text-[#b49bff] mr-[10px] h-5 w-5&quot; /&gt;&#10;        &lt;h1 className=&quot;Welcome-text text-[13px]&quot;&gt;&#10;          Think better with modern tools&#10;        &lt;/h1&gt;&#10;      &lt;/motion.div&gt;&#10;&#10;      &lt;motion.div&#10;        variants={slideInFromLeft(0.5)}&#10;        className=&quot;text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]&quot;&#10;      &gt;&#10;        Making apps with modern technologies.&#10;      &lt;/motion.div&gt;&#10;&#10;      &lt;motion.div&#10;        variants={slideInFromRight(0.5)}&#10;        className=&quot;cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center&quot;&#10;      &gt;&#10;        Never miss a task, deadline or idea.&#10;      &lt;/motion.div&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
